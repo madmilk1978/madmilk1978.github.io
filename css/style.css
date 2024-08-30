@@ -24,7 +24,7 @@ body {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-header, p, ul {
+h1, h2, p, ul {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -34,7 +34,7 @@ ul { padding: 0;}
 li { list-style: none; }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: #425279; /* Dark text color */
 }
 
@@ -43,6 +43,7 @@ animation-name: bounceDown;
 animation-duration: 2s;
 animation-iteration-count: 1; /* The animation will play 1 times */
 animation-fill-mode: forwards;
+margin: 0;
 }
 
 #profile-photo img {
@@ -54,7 +55,7 @@ animation-fill-mode: forwards;
     margin: 0 auto;
 }
 
-.bio {
+.bio , h2 {
     font-size: 1.2em;
     color: #425279; /* Medium gray text color */
     line-height: 1.6;
@@ -99,17 +100,17 @@ a:hover {
 }
 
 @keyframes animate{
-    0%  { cursor: url('img/cursor/0.gif'), auto; }   
-    10% { cursor: url('img/cursor/1.gif'), auto; }
-    20% { cursor: url('img/cursor/2.gif'), auto; }   
-    30% { cursor: url('img/cursor/3.gif'), auto; }
-    40% { cursor: url('img/cursor/4.gif'), auto; }
-    50% { cursor: url('img/cursor/5.gif'), auto; }   
-    60% { cursor: url('img/cursor/6.gif'), auto; }
-    70% { cursor: url('img/cursor/7.gif'), auto; }   
-    80% { cursor: url('img/cursor/8.gif'), auto; }
-    90% { cursor: url('img/cursor/9.gif'), auto; }
-    100% { cursor: url('img/cursor/0.gif'), auto; }
+    0%  { cursor: url('../img/cursor/0.gif'), auto; }   
+    10% { cursor: url('../img/cursor/1.gif'), auto; }
+    20% { cursor: url('../img/cursor/2.gif'), auto; }   
+    30% { cursor: url('../img/cursor/3.gif'), auto; }
+    40% { cursor: url('../img/cursor/4.gif'), auto; }
+    50% { cursor: url('../img/cursor/5.gif'), auto; }   
+    60% { cursor: url('../img/cursor/6.gif'), auto; }
+    70% { cursor: url('../img/cursor/7.gif'), auto; }   
+    80% { cursor: url('../img/cursor/8.gif'), auto; }
+    90% { cursor: url('../img/cursor/9.gif'), auto; }
+    100% { cursor: url('../img/cursor/0.gif'), auto; }
 
 }
 
@@ -119,6 +120,6 @@ a:hover {
     font-family: 'Gochi Hand';
     font-style: normal;
     font-weight: 400;
-    src: url('fonts/gochi-hand-v23-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('fonts/gochi-hand-v23-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('../fonts/gochi-hand-v23-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/gochi-hand-v23-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }

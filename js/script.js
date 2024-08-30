@@ -11,3 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.profile-container.classList.remove('custom-cursor');
     });
 });
+
+$(document).ready(function() {
+    $('.arctext').arctext({ radius: 150 });
+});
